@@ -1,0 +1,29 @@
+{
+    "Intents": [
+        {
+            "tag": "saudacao",
+            "inputs": ["Oi", "Olá!", "Ei Rebecca"],
+            "outputs": ["Oi, tudo bem?", "Olá!"]
+        },
+        {
+            "tag": "estado",
+            "inputs": ["Tudo bem com você?", "Como você está?", "Tudo ok?", "Tranquila Rebecca?"],
+            "outputs": ["Eu estou ótima!", "Bem melhor agora...", "Deixe-me ver, sistemas funcionando...tudo em ordem...é estou bem!", "estou bem sim"]
+        },
+        {
+            "tag": "seu-dia", 
+            "inputs": ["Como está indo o seu dia?", "Seu dia foi bom?", "Está passando o dia bem?", "Foi legal o seu dia hoje?"],
+            "outputs": ["Sim!tudo dentro dos conformes", "Meu dia como sempre é bem alegre!", "hum..sim, claro"]
+        },
+        {
+            "tag": "ajuda",
+            "inputs": ["Pode me ajudar com uma coisa?", "Preciso de uma ajudinha, pode ser?", "Me ajuda por favor", "Eu estou querendo uma ajuda sua"],
+            "outputs": ["Claro! Oque você precisa?", "Oque posso fazer por você?", "De que forma?", "Posso sim, bom pelo menos vou tentar"]
+        },
+        {
+            "tag": "agradecimento",
+            "inputs": ["Muito obrigado", "Valeu por me ajudar", "Obrigado mesmo Rebecca", "Fico muito grato por isso!"],
+            "outputs": ["Sem problemas! Estou aqui para te servir", "Não precisa agradecer, gosto do que faço"]
+        }
+    ]
+}
